@@ -1,7 +1,7 @@
 gmailEmptyTrash
 ===============
 
-Ruby script that expunges email from Gmail's trash using a modified version of ruby-gmail
+Ruby script that expunges email from Gmail's trash. Ruby-gmail gem is required.
 
 Can be run from Cron to keep your Trash empty, like so:
 
