@@ -1,8 +1,10 @@
 # Require ruby-gmail gem
 require 'gmail'
 
+
 username = ''
 password = ''
+
 
 # Add expunge method to Gmail class of ruby-gmail gem
 class Gmail
@@ -10,6 +12,7 @@ class Gmail
         @imap.expunge
     end
 end
+
 
 # Intantiate new Gmail instance with credentials
 Gmail.new(username, password) do |gmail|
