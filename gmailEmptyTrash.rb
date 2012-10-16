@@ -1,3 +1,5 @@
+# Author: Cory Lown
+
 # Require ruby-gmail gem
 require 'gmail'
 
