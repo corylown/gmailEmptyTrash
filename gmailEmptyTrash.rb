@@ -16,7 +16,7 @@ class Gmail
 end
 
 
-# Intantiate new Gmail instance with credentials
+# Instantiate new Gmail instance with credentials
 Gmail.new(username, password) do |gmail|
 
     # Mark each email in Trash as deleted
